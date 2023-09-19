@@ -1,20 +1,28 @@
 /* xs */
 @media screen and (min-width:0px) and (max-width:600px){
-    .Card,.thanks{ 
+    .Card, .thanks{ 
         
       width: 100% !important;
       }
+      .thanks{ 
+        
+        width: 100% !important;
+        }
 }
 /* sm */
 @media screen and (min-width:601px) and (max-width:768px){
-    .Card,.thanks{ 
+    .Card, .thanks{ 
+        margin: 30px;
+      width: 100% !important;
+      }
+      .thanks{ 
         margin: 30px;
       width: 100% !important;
       }
 }
 /* md */
 @media screen and (min-width:769px) and (max-width:991px){
-    .Card,.thanks{ 
+    .Card, .thanks{ 
         
       width: 60% !important;
       }
