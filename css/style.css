@@ -1,0 +1,75 @@
+
+   /* - White: hsl(0, 0%, 100%)
+   - Light Grey: hsl(217, 12%, 63%)
+   - Medium Grey: hsl(216, 12%, 54%)
+   - Dark Blue: hsl(213, 19%, 18%)
+   - Very Dark Blue: hsl(216, 12%, 8%) */
+   body{
+    background-color:hsl(216, 12%, 8%) ;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+   }
+
+   /* card-section start */ 
+.image{
+  background-color: hsl(210,19.15%,18.43%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Card p{
+  color: gray !important;
+}
+ 
+   .Card,.thanks{
+    background-color: hsl(215.29,21.52%,15.49%);
+width: 40%;
+
+   }
+   li{
+    cursor: pointer;
+    background-color: hsl(210,19.15%,18.43%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   li:hover{
+    background-color:  hsl(25, 97%, 53%);
+   }
+   button{
+    background-color:  hsl(25, 97%, 53%) !important;
+    border:  hsl(25, 97%, 53%) !important;
+    color: white !important;
+    width: 100%;
+   }
+   button:hover{
+    background-color: white !important;
+    color:hsl(25, 97%, 53%) !important; 
+   }
+   /* card-section end */
+
+
+   /* thanks-section start */
+
+.selected p{
+  color:hsl(25, 97%, 53%) !important; 
+  background-color: hsl(210,19.15%,18.43%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.thanks-content p{
+color: gray !important;
+}
+.selected-color{
+  background-color: hsl(216, 12%, 54%);
+}
+      /* thanks-section end */

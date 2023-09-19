@@ -1,0 +1,33 @@
+/* xs */
+@media screen and (min-width:0px) and (max-width:600px){
+    .Card,.thanks{ 
+        
+      width: 100% !important;
+      }
+}
+/* sm */
+@media screen and (min-width:601px) and (max-width:768px){
+    .Card,.thanks{ 
+        margin: 30px;
+      width: 100% !important;
+      }
+}
+/* md */
+@media screen and (min-width:769px) and (max-width:991px){
+    .Card,.thanks{ 
+        
+      width: 60% !important;
+      }
+}
+
+/* lg */
+@media screen and (min-width:992px) and (max-width:1200px){
+   
+}
+
+
+/* xl */
+
+@media screen and (min-width:1200px){
+
+}
