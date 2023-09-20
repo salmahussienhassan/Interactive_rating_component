@@ -39,7 +39,7 @@ submitBtn.addEventListener('click',function(){
         cardBox.classList.add("d-none")
       
         thanksBox.classList.replace('d-none','d-block')
-        thanksBox.classList.add("animate__animated","animate__fadeInRight")
+        // thanksBox.classList.add("animate__animated","animate__fadeInRight")
 
        document.querySelector('.number').innerHTML=rateNum
       
