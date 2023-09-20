@@ -47,6 +47,9 @@ width: 40%;
     background-color: white !important;
     color:hsl(25, 97%, 53%) !important; 
    }
+  .butn .Alert{
+    color: hsl(25, 97%, 53%) !important;
+   }
    /* card-section end */
 
 

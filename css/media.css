@@ -8,6 +8,9 @@
         
         width: 100% !important;
         }
+        .container{
+          height: 100dvh !important;
+        } 
 }
 /* sm */
 @media screen and (min-width:601px) and (max-width:768px){
@@ -19,6 +22,9 @@
         margin: 30px;
       width: 100% !important;
       }
+      .container{
+        height: 100dvh !important;
+      } 
 }
 /* md */
 @media screen and (min-width:769px) and (max-width:991px){
