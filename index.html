@@ -1,76 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
-    <title>Interactive rating component</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Overpass:wght@300;400;500;600;700;800;900&display=swap');
-    </style>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/media.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon" />
+  <title>Interactive rating component</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Overpass:wght@300;400;500;600;700;800;900&display=swap");
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/lib/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
-<section class="rating-section">
-  <div class="container vh-100 d-flex justify-content-center align-items-center">
+  <section class="rating-section">
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+      <div class="Card rounded-5 p-5">
+        <div class="image mb-5">
+          <img class="img-fluid" src="./img/icon-star.svg" alt="" />
+        </div>
+        <div class="title">
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="list my-4">
+          <ul class="p-0 d-flex justify-content-between align-items-center m-auto">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+          </ul>
+        </div>
+        <div class="butn">
+          <button class="submit btn btn-info rounded-5">Submit</button>
+          <p class="alertText text-center my-3 d-none">
+            Please Choose Rate Number First!
+          </p>
+        </div>
+      </div>
 
-    <div class="Card rounded-5 p-5">
-      
-          <div class="image mb-5">
-            <img class="img-fluid" src="./img/icon-star.svg" alt="">
-          </div>
-          <div class="title">
-            <h1>How did we do?</h1>
-            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-          </div>
-          <div class="list my-4">
-            <ul class="p-0 d-flex justify-content-between align-items-center  m-auto">
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-              <li>4</li>
-              <li>5</li>
-            </ul>
-          </div>
-          <div class="butn">
-            <button class="submit btn btn-info rounded-5">Submit</button>
-            <p class="Alert text-center my-3 d-none">Please Choose Rate Number First!</p>
-          </div>
-  
-     
-    
-
+      <div class="thanks d-none rounded-5 p-5">
+        <div class="thanks-img mb-5 d-flex justify-content-center align-items-center">
+          <img class="img-fluid" src="./img/illustration-thank-you.svg" alt="" />
+        </div>
+        <div class="selected d-flex flex-column justify-content-center align-items-center">
+          <p class="rounded-5 px-3 py-1">
+            You selected<span class="number mx-1"> 4 </span>out of 5
+          </p>
+        </div>
+        <div class="thanks-content d-flex flex-column justify-content-center align-items-center">
+          <h1>Thank you!</h1>
+          <p class="text-center">
+            We appreciate you taking the time to give a rating. if you ever
+            need more support, dont hesitate to get in touch!
+          </p>
+        </div>
+      </div>
     </div>
+  </section>
 
-<div class="thanks d-none rounded-5 p-5">
-
-<div class="thanks-img mb-5 d-flex justify-content-center align-items-center">
-  <img class="img-fluid" src="./img/illustration-thank-you.svg" alt="">
-</div>
-<div class="selected d-flex flex-column justify-content-center align-items-center ">
-  <p class="rounded-5 px-3 py-1 ">You selected<span class="number mx-1"> 4 </span>out of 5 </p>
-</div>
-<div class="thanks-content d-flex flex-column justify-content-center align-items-center">
-  <h1>Thank you!</h1>
-  <p class="text-center">We appreciate you taking the time to give a rating. if you ever need more support, dont hesitate to get in touch!</p>
-</div>
-</div>
-
-
-  </div>
-</section>
-
-
-
-
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script src="./js/index.js"></script>
-
+  <script src="./js/lib/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
+
 </html>
